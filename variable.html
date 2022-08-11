@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Variable</h1>
+
+      <img
+        id="image"
+        src="https://images.pexels.com/photos/3789147/pexels-photo-3789147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2=300"
+        alt=""
+        width="300"
+      />
+    </main>
+
+    <script>
+      // deklarasi variable
+      let username;
+      // assign variable
+      username = 'Arief ardhan s';
+
+      // combine deklarasi and assign
+      let email = 'ariefardhansaputra@gmail.com';
+
+      console.log(username);
+      console.log(email);
+
+      let title = document.getElementById('title');
+      console.log(title);
+
+      title.style.color = 'blue';
+      title.style.fontSize = '26px';
+      title.innerHTML = 'Software Engineer';
+
+      // menangkap element img dengan id title
+      let image = document.getElementById('image');
+      image.src =
+        'https://images.pexels.com/photos/12708081/pexels-photo-12708081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2';
+    </script>
+  </body>
+</html>
